@@ -16,8 +16,8 @@ COPY . .
 # Build your app
 RUN npm run build
 
-# Make port 6000 available to the world outside this container
-EXPOSE 6000
+# Make port 4000 available to the world outside this container
+EXPOSE 4000
 
 # Define environment variable
 ENV NODE_ENV production

@@ -37,7 +37,7 @@ $ npm run start:prod
 
 # use docker to run
 $ docker build -t show-me-the-money-api-gateway .
-$ docker run -p 6000:6000 -e XERO_API_HOST=http://host.docker.internal:6001 show-me-the-money-api-gateway
+$ docker run -p 4000:4000 -e XERO_API_HOST=http://host.docker.internal:6001 show-me-the-money-api-gateway
 ```
 
 ## Test
